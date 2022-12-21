@@ -306,7 +306,6 @@ wget -O port-xray "https://raw.githubusercontent.com/${GitUser}/websocket/main/c
 wget -O panel-domain "https://raw.githubusercontent.com/${GitUser}/websocket/main/menu/panel-domain.sh"
 wget -O system "https://raw.githubusercontent.com/${GitUser}/websocket/main/menu/system.sh"
 wget -O themes "https://raw.githubusercontent.com/${GitUser}/websocket/main/menu/themes.sh"
-wget -O menu-dns "https://raw.githubusercontent.com/${GitUser}/websocket/main/menu/menu-dns.sh"
 chmod +x add-host
 chmod +x menu
 chmod +x add-ssh
@@ -353,7 +352,6 @@ chmod +x port-xray
 chmod +x panel-domain
 chmod +x system
 chmod +x themes
-chmod +x menu-dns
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 echo "0 0 * * * root delete" >> /etc/crontab
