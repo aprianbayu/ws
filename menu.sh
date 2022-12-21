@@ -161,7 +161,7 @@ echo -e "  \e[$number (•5)\e[m \e[$below OPENSSH & OPENVPN\e[m          \e[$nu
 echo -e "  \e[$number (•6)\e[m \e[$below SYSTEM MENU\e[m                \e[$number (12)\e[m \e[$below INFO ALL PORT\e[m"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e "  \e[$below Premium VPS by $creditt"
-echo -e "  \e[$below Thank you for using script by @Norulezzx"
+echo -e "  \e[$below Thank you for using this script"
 echo -e " \e[$line════════════════════════════════════════════════════════════\e[m"
 echo -e ""
 echo -e "  \e[$below [Ctrl + C] For exit from main menu\e[m"
