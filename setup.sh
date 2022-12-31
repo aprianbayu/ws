@@ -8,6 +8,7 @@ fi
 if [ "$(systemd-detect-virt)" == "openvz" ]; then
 		echo "OpenVZ is not supported"
 		exit 1
+fi
 clear
 rm -f setup.sh
 echo -e "\e[32mloading...\e[0m"
