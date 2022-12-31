@@ -23,8 +23,6 @@ VERSIONSC () {
     exit 0
 fi
 }
-rm -f setup.sh
-exit 0
 fi
 clear
 echo -e "\e[32mloading...\e[0m"
