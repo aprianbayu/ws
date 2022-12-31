@@ -1,10 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
 GitUser="aprianbayu"
-#IZIN SCRIPT
-MYIP=$(curl -sS ipv4.icanhazip.com)
-echo -e "\e[32mloading...\e[0m"
-clear
 # Valid Script
 VALIDITY () {
     today=`date -d "0 days" +"%Y-%m-%d"`
